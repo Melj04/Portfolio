@@ -145,8 +145,10 @@ li{
     font-size: x-large;
   }
 
+  .page2{
+    height: 98vh;
+  }
   .container {
-
     flex: 0 1 28%;
     margin-left: 4%;
   }
