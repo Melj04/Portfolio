@@ -95,7 +95,6 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
   border-radius: 5px;
   border: 1px solid transparent;
   box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.2);
@@ -105,6 +104,10 @@ h1 {
   font-family: 'Times New Roman';
   font-weight: lighter;
   font-size: 150%;
+  opacity: .8;
+}
+b{
+  opacity: .9;
 }
 
 .container {
@@ -115,14 +118,81 @@ h1 {
 
 p{
   font-family: arial;
+  opacity: .8;
 }
 
 li{
   font-family: arial;
+  opacity: .8;
 }
 
 .training{
   margin-top: 5px;
+  opacity: .8;
+}
+
+h3{
+  margin-top: 20px;
+  font-family: arial;
+  font-weight: lighter;
+  opacity: .9;
+}
+.dash{
+  width: 100%;
+  height: 60%;
+}
+.param{
+  width: 90%;
+  height: 70vh;
+  margin-left: 5%;
+}
+
+.container2 {
+  width: 100%;
+  height: fit-content;
+  margin-left: 3%;
+}
+.container3 {
+  width: 100%;
+  height: fit-content;
+  margin-left: 1%;
+  margin-top: 10px;
+}
+
+.about{
+  width: 100%;
+  height: fit-content;
+  margin-left: 3%;
+  margin-top: 10px;
+}
+.abtme{
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: .8;
+  font-size: 150%;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+h2{
+opacity: .8;
+font-size: 150%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.info{
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-size:small;
+  opacity: .8;
+}
+
+.info2{
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 95%;
+  font-weight:bold;
+  font-size:small;
+  opacity: .7;
 }
 
 @media only screen and (min-width: 400px) {
@@ -148,6 +218,7 @@ li{
 
   .page2{
     height: 98vh;
+    gap: 10px;
   }
   .container {
     flex: 0 1 28%;
@@ -168,4 +239,42 @@ font-size:x-large;
   .training{
   font-size: larger;
   }
+  .param{
+  width: 80%;
+  height: 87vh;
+  padding-left: 5%;
+}
+
+.container2 {
+  width: 64%;
+  height: fit-content;
+  margin-left: 3%;
+}
+.container3 {
+  width: 30%;
+  height: fit-content;
+  margin-left: 1%;
+  margin-top: 20px;
+}
+.about{
+  height: 95vh;
+  padding-top: 1%;
+}
+.abtme{
+  font-size: 250%;
+  margin-bottom: 10px;
+}
+h2{
+  font-size: xx-large;
+}
+.info{
+  width: 83%;
+  font-size: xx-large;
+}
+.info2{
+  font-size: xx-large;
+  font-weight: 540;
+  opacity: .8;
+}
+
 }
