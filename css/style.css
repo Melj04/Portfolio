@@ -3,7 +3,7 @@
 }
 
 .page1 {
-  height: 98vh;
+  height: auto;
   width: 100%;
   background-color: rgb(243, 241, 241);
   display: flex;
